@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+img {
+  height: 5rem;
+  width: 8rem;
+}
+.navlist {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+.barber h1 {
+  font-size: 6rem;
+}
+.barber {
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  background-image: url(https://img.freepik.com/free-photo/portrait-tattooed-male-barber-holds-sharp-scissors-blade_613910-1390.jpg?w=996&t=st=1702389871~exp=1702390471~hmac=9a2d8af0223817de8d9b70c7d82fde80790838041787dfd8cdd55e5c5949e9f3);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+}
+.btn {
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: black;
+  border: 2px solid white;
+  gap: 1rem;
+  font-weight: bold;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  gap: 2rem;
+}
+.card img {
+  height: 20rem;
+  width: 20rem;
+}
+.cardrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 4rem;
+  text-align: center;
+}
+h4 {
+  font-size: 2rem;
+}
+.card {
+  width: 20rem;
+  border: 2px solid black;
+  gap: 20px;
+}
+
+.cardrow p {
+  padding-bottom: 1rem;
+  font-size: 20px;
+}
+.para {
+  font-size: 25px;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+.graph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.awardes {
+  background-color: aquamarine;
+}
+h1 {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+.certificate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 4rem;
+  background-color: aquamarine;
+}
+.certificate img {
+  height: 15rem;
+  width: 20rem;
+}
+.lastpara {
+  background-image: url(https://img.freepik.com/free-photo/young-man-barbershop-trimming-hair_1303-26254.jpg?size=626&ext=jpg&ga=GA1.1.231820425.1702389794&semt=ais);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lastpara {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  max-width: 500px;
+  padding: 28px;
+  margin: 0 20px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 15px 20px;
+}
+h6 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  padding-bottom: 8px;
+  border-bottom: 1px soild white;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2px 0;
+}
+.input-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-bottom: 10px;
+}
+.input-box :nth-child(2n) {
+  justify-content: end;
+}
+.Message-box {
+  width: 95%;
+  color: white;
+  font-weight: bold;
+  margin: 5px 0;
+}
+.input-box label {
+  width: 95%;
+  color: white;
+  font-weight: bold;
+  margin: 5px 0;
+}
+.input-box input {
+  height: 40px;
+  width: 95%;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px soild white;
+  outline: none;
+}
+.Button-click {
+  margin: 15px 0;
+  align-items: end;
+}
+.Button-click button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  display: block;
+  font-size: 20px;
+  border: none;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.lastbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mbicon {
+  display: none;
+}
+
+@media screen and (max-width: 670px) {
+  .body {
+    background-color: aqua;
+  }
+  .navlist {
+    display: none;
+    gap: 2rem;
+    align-items: centre;
+    position: absolute;
+    flex-direction: column;
+    background-color: black;
+    margin-top: 18rem;
+    padding: 1rem;
+    height: 200px;
+    width: 100%;
+    left: 0;
+    color: white;
+  }
+
+  .mbicon {
+    display: block;
+    cursor: pointer;
+  }
+  .showandhide {
+    display: flex;
+  }
+}
